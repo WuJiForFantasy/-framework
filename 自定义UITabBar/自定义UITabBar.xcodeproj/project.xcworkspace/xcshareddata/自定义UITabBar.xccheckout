@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F5C2A2F-5AE2-44E4-9A83-0A61B7CC092A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>自定义UITabBar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</key>
+		<string>https://github.com/WuJiForFantasy/-framework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>自定义UITabBar/自定义UITabBar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/WuJiForFantasy/-framework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WJFrameWork</string>
+		</dict>
+	</array>
+</dict>
+</plist>
