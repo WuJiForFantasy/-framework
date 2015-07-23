@@ -12,6 +12,8 @@
 #import "JKNotifier.h"
 
 @implementation AppDelegate (JPush)
+//3da015a3ae59fb6e169ab59b
+//bbdaffda3e8e42a481467073
 static NSString *JIGUANG_PUSH_KEY = @"bbdaffda3e8e42a481467073";
 
 - (void)initJpush:(NSDictionary *)launchOptions {
