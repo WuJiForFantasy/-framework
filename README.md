@@ -6,6 +6,8 @@
 
 [[IQKeyboardManager sharedManager] setToolbarManageBehaviour:IQAutoToolbarByPosition]; //输入框自动上移
 [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
-是否使用： （可能会与代码有冲突时使用）
 
+是否使用： （可能会与代码有冲突时使用）
 [IQKeyboardManager sharedManager].enable = NO;
+
+GCD封装，仿系统actionsheet,仿系统通知
