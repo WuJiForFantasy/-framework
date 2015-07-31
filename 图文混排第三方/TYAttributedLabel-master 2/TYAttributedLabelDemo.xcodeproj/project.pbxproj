@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1812154D1B6B2CB3001572AA /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1812154C1B6B2CB3001572AA /* aa.png */; };
+		B00F2C6C1B24666500EECDCE /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F2C6B1B24666500EECDCE /* TYTextContainer+Extended.m */; };
+		B0165EF81AE157FA0003D580 /* CYLoLi.png in Resources */ = {isa = PBXBuildFile; fileRef = B0165EF71AE157FA0003D580 /* CYLoLi.png */; };
+		B03407411B27049300DCEACB /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03407401B27049300DCEACB /* TextContainerViewController.m */; };
+		D34A49871AD4D5510036B7EF /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D34A49861AD4D5510036B7EF /* TYTextStorage.m */; };
+		D34A498E1AD4FA760036B7EF /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D34A498D1AD4FA760036B7EF /* TYDrawStorage.m */; };
+		D34A49911AD4FF370036B7EF /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D34A49901AD4FF370036B7EF /* TYLinkTextStorage.m */; };
+		D34A49951AD50EB70036B7EF /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D34A49941AD50EB70036B7EF /* TYImageStorage.m */; };
+		D34A49971AD52D980036B7EF /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = D34A49961AD52D980036B7EF /* haha.png */; };
+		D34A49991AD52D9E0036B7EF /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D34A49981AD52D9E0036B7EF /* avatar.png */; };
+		D34BE7421AD669F000BECD40 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE7411AD669F000BECD40 /* TYViewStorage.m */; };
+		D3553BCC1AE732C8005D8F31 /* LinkTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3553BCB1AE732C8005D8F31 /* LinkTextViewController.m */; };
+		D3553BCF1AE7746A005D8F31 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = D3553BCE1AE7746A005D8F31 /* content.json */; };
+		D3553BD21AE778DB005D8F31 /* TYTextStorageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D3553BD11AE778DB005D8F31 /* TYTextStorageParser.m */; };
+		D3553BD51AE79106005D8F31 /* AddViewTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3553BD41AE79106005D8F31 /* AddViewTextViewController.m */; };
+		D35F47CB1AE0DAF20048B58A /* SimpleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F47CA1AE0DAF20048B58A /* SimpleTextViewController.m */; };
+		D35F47CE1AE0DB370048B58A /* AttributedTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F47CD1AE0DB370048B58A /* AttributedTextViewController.m */; };
+		D35F47D11AE0DB500048B58A /* ImageTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F47D01AE0DB500048B58A /* ImageTextViewController.m */; };
+		D35F47D41AE0DBE30048B58A /* ParseTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F47D31AE0DBE30048B58A /* ParseTextViewController.m */; };
+		D35F47DA1AE101880048B58A /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F47D91AE101880048B58A /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D35F47E01AE102B30048B58A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35F47DF1AE102B30048B58A /* libicucore.dylib */; };
+		D3709F101AD3A5C000145EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F0F1AD3A5C000145EC6 /* main.m */; };
+		D3709F131AD3A5C000145EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F121AD3A5C000145EC6 /* AppDelegate.m */; };
+		D3709F161AD3A5C000145EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F151AD3A5C000145EC6 /* ViewController.m */; };
+		D3709F191AD3A5C000145EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3709F171AD3A5C000145EC6 /* Main.storyboard */; };
+		D3709F1B1AD3A5C000145EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3709F1A1AD3A5C000145EC6 /* Images.xcassets */; };
+		D3709F1E1AD3A5C000145EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3709F1C1AD3A5C000145EC6 /* LaunchScreen.xib */; };
+		D3709F2A1AD3A5C000145EC6 /* TYAttributedLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F291AD3A5C000145EC6 /* TYAttributedLabelDemoTests.m */; };
+		D3709F361AD3A60800145EC6 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F351AD3A60800145EC6 /* TYAttributedLabel.m */; };
+		D3709F431AD3C71900145EC6 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = D3709F421AD3C71900145EC6 /* NSMutableAttributedString+TY.m */; };
+		D3C623FE1B20348400C15D94 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C623FD1B20348400C15D94 /* TYTextContainer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3709F241AD3A5C000145EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3709F021AD3A5C000145EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3709F091AD3A5C000145EC6;
+			remoteInfo = TYAttributedLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1812154C1B6B2CB3001572AA /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		B00F2C6B1B24666500EECDCE /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		B0165EF71AE157FA0003D580 /* CYLoLi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CYLoLi.png; sourceTree = "<group>"; };
+		B034073F1B27049300DCEACB /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
+		B03407401B27049300DCEACB /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
+		D34A49851AD4D5510036B7EF /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		D34A49861AD4D5510036B7EF /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		D34A498C1AD4FA760036B7EF /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		D34A498D1AD4FA760036B7EF /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		D34A498F1AD4FF370036B7EF /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		D34A49901AD4FF370036B7EF /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		D34A49921AD505150036B7EF /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		D34A49931AD50EB70036B7EF /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		D34A49941AD50EB70036B7EF /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		D34A49961AD52D980036B7EF /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		D34A49981AD52D9E0036B7EF /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		D34BE7401AD669F000BECD40 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		D34BE7411AD669F000BECD40 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		D3553BCA1AE732C8005D8F31 /* LinkTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkTextViewController.h; sourceTree = "<group>"; };
+		D3553BCB1AE732C8005D8F31 /* LinkTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkTextViewController.m; sourceTree = "<group>"; };
+		D3553BCE1AE7746A005D8F31 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		D3553BD01AE778DB005D8F31 /* TYTextStorageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageParser.h; sourceTree = "<group>"; };
+		D3553BD11AE778DB005D8F31 /* TYTextStorageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorageParser.m; sourceTree = "<group>"; };
+		D3553BD31AE79106005D8F31 /* AddViewTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewTextViewController.h; sourceTree = "<group>"; };
+		D3553BD41AE79106005D8F31 /* AddViewTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewTextViewController.m; sourceTree = "<group>"; };
+		D35F47C91AE0DAF20048B58A /* SimpleTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTextViewController.h; sourceTree = "<group>"; };
+		D35F47CA1AE0DAF20048B58A /* SimpleTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTextViewController.m; sourceTree = "<group>"; };
+		D35F47CC1AE0DB370048B58A /* AttributedTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedTextViewController.h; sourceTree = "<group>"; };
+		D35F47CD1AE0DB370048B58A /* AttributedTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedTextViewController.m; sourceTree = "<group>"; };
+		D35F47CF1AE0DB500048B58A /* ImageTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextViewController.h; sourceTree = "<group>"; };
+		D35F47D01AE0DB500048B58A /* ImageTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextViewController.m; sourceTree = "<group>"; };
+		D35F47D21AE0DBE30048B58A /* ParseTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseTextViewController.h; sourceTree = "<group>"; };
+		D35F47D31AE0DBE30048B58A /* ParseTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseTextViewController.m; sourceTree = "<group>"; };
+		D35F47D81AE101880048B58A /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D35F47D91AE101880048B58A /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D35F47DF1AE102B30048B58A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		D3709F0A1AD3A5C000145EC6 /* TYAttributedLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYAttributedLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3709F0E1AD3A5C000145EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3709F0F1AD3A5C000145EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3709F111AD3A5C000145EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3709F121AD3A5C000145EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3709F141AD3A5C000145EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3709F151AD3A5C000145EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3709F181AD3A5C000145EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3709F1A1AD3A5C000145EC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3709F1D1AD3A5C000145EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3709F231AD3A5C000145EC6 /* TYAttributedLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYAttributedLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3709F281AD3A5C000145EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3709F291AD3A5C000145EC6 /* TYAttributedLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabelDemoTests.m; sourceTree = "<group>"; };
+		D3709F341AD3A60800145EC6 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		D3709F351AD3A60800145EC6 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		D3709F411AD3C71900145EC6 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		D3709F421AD3C71900145EC6 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		D3C623FC1B20348400C15D94 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		D3C623FD1B20348400C15D94 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3709F071AD3A5C000145EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F47E01AE102B30048B58A /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3709F201AD3A5C000145EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3709F011AD3A5C000145EC6 = {
+			isa = PBXGroup;
+			children = (
+				D35F47DF1AE102B30048B58A /* libicucore.dylib */,
+				D3709F0C1AD3A5C000145EC6 /* TYAttributedLabelDemo */,
+				D3709F261AD3A5C000145EC6 /* TYAttributedLabelDemoTests */,
+				D3709F0B1AD3A5C000145EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3709F0B1AD3A5C000145EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3709F0A1AD3A5C000145EC6 /* TYAttributedLabelDemo.app */,
+				D3709F231AD3A5C000145EC6 /* TYAttributedLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3709F0C1AD3A5C000145EC6 /* TYAttributedLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3709F331AD3A5D600145EC6 /* TYAttributedLabel */,
+				D35F47D81AE101880048B58A /* RegexKitLite.h */,
+				D35F47D91AE101880048B58A /* RegexKitLite.m */,
+				D3709F111AD3A5C000145EC6 /* AppDelegate.h */,
+				D3709F121AD3A5C000145EC6 /* AppDelegate.m */,
+				D3709F141AD3A5C000145EC6 /* ViewController.h */,
+				D3709F151AD3A5C000145EC6 /* ViewController.m */,
+				D35F47C91AE0DAF20048B58A /* SimpleTextViewController.h */,
+				D35F47CA1AE0DAF20048B58A /* SimpleTextViewController.m */,
+				D35F47CC1AE0DB370048B58A /* AttributedTextViewController.h */,
+				D35F47CD1AE0DB370048B58A /* AttributedTextViewController.m */,
+				D35F47CF1AE0DB500048B58A /* ImageTextViewController.h */,
+				D35F47D01AE0DB500048B58A /* ImageTextViewController.m */,
+				D3553BCA1AE732C8005D8F31 /* LinkTextViewController.h */,
+				D3553BCB1AE732C8005D8F31 /* LinkTextViewController.m */,
+				D3553BD31AE79106005D8F31 /* AddViewTextViewController.h */,
+				1812154C1B6B2CB3001572AA /* aa.png */,
+				D3553BD41AE79106005D8F31 /* AddViewTextViewController.m */,
+				B034073F1B27049300DCEACB /* TextContainerViewController.h */,
+				B03407401B27049300DCEACB /* TextContainerViewController.m */,
+				D35F47D21AE0DBE30048B58A /* ParseTextViewController.h */,
+				D35F47D31AE0DBE30048B58A /* ParseTextViewController.m */,
+				D3553BD01AE778DB005D8F31 /* TYTextStorageParser.h */,
+				D3553BD11AE778DB005D8F31 /* TYTextStorageParser.m */,
+				D3709F171AD3A5C000145EC6 /* Main.storyboard */,
+				D3709F1A1AD3A5C000145EC6 /* Images.xcassets */,
+				D3709F1C1AD3A5C000145EC6 /* LaunchScreen.xib */,
+				D3709F0D1AD3A5C000145EC6 /* Supporting Files */,
+			);
+			path = TYAttributedLabelDemo;
+			sourceTree = "<group>";
+		};
+		D3709F0D1AD3A5C000145EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3553BCE1AE7746A005D8F31 /* content.json */,
+				B0165EF71AE157FA0003D580 /* CYLoLi.png */,
+				D34A49981AD52D9E0036B7EF /* avatar.png */,
+				D34A49961AD52D980036B7EF /* haha.png */,
+				D3709F0E1AD3A5C000145EC6 /* Info.plist */,
+				D3709F0F1AD3A5C000145EC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3709F261AD3A5C000145EC6 /* TYAttributedLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3709F291AD3A5C000145EC6 /* TYAttributedLabelDemoTests.m */,
+				D3709F271AD3A5C000145EC6 /* Supporting Files */,
+			);
+			path = TYAttributedLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		D3709F271AD3A5C000145EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3709F281AD3A5C000145EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3709F331AD3A5D600145EC6 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D3709F341AD3A60800145EC6 /* TYAttributedLabel.h */,
+				D3709F351AD3A60800145EC6 /* TYAttributedLabel.m */,
+				D3C623FC1B20348400C15D94 /* TYTextContainer.h */,
+				D3C623FD1B20348400C15D94 /* TYTextContainer.m */,
+				B00F2C6B1B24666500EECDCE /* TYTextContainer+Extended.m */,
+				D3709F411AD3C71900145EC6 /* NSMutableAttributedString+TY.h */,
+				D3709F421AD3C71900145EC6 /* NSMutableAttributedString+TY.m */,
+				D34A49921AD505150036B7EF /* TYTextStorageProtocol.h */,
+				D34A49851AD4D5510036B7EF /* TYTextStorage.h */,
+				D34A49861AD4D5510036B7EF /* TYTextStorage.m */,
+				D34A498F1AD4FF370036B7EF /* TYLinkTextStorage.h */,
+				D34A49901AD4FF370036B7EF /* TYLinkTextStorage.m */,
+				D34A498C1AD4FA760036B7EF /* TYDrawStorage.h */,
+				D34A498D1AD4FA760036B7EF /* TYDrawStorage.m */,
+				D34A49931AD50EB70036B7EF /* TYImageStorage.h */,
+				D34A49941AD50EB70036B7EF /* TYImageStorage.m */,
+				D34BE7401AD669F000BECD40 /* TYViewStorage.h */,
+				D34BE7411AD669F000BECD40 /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3709F091AD3A5C000145EC6 /* TYAttributedLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3709F2D1AD3A5C000145EC6 /* Build configuration list for PBXNativeTarget "TYAttributedLabelDemo" */;
+			buildPhases = (
+				D3709F061AD3A5C000145EC6 /* Sources */,
+				D3709F071AD3A5C000145EC6 /* Frameworks */,
+				D3709F081AD3A5C000145EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYAttributedLabelDemo;
+			productName = TYAttributedLabelDemo;
+			productReference = D3709F0A1AD3A5C000145EC6 /* TYAttributedLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3709F221AD3A5C000145EC6 /* TYAttributedLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3709F301AD3A5C000145EC6 /* Build configuration list for PBXNativeTarget "TYAttributedLabelDemoTests" */;
+			buildPhases = (
+				D3709F1F1AD3A5C000145EC6 /* Sources */,
+				D3709F201AD3A5C000145EC6 /* Frameworks */,
+				D3709F211AD3A5C000145EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3709F251AD3A5C000145EC6 /* PBXTargetDependency */,
+			);
+			name = TYAttributedLabelDemoTests;
+			productName = TYAttributedLabelDemoTests;
+			productReference = D3709F231AD3A5C000145EC6 /* TYAttributedLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3709F021AD3A5C000145EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = tanyang;
+				TargetAttributes = {
+					D3709F091AD3A5C000145EC6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D3709F221AD3A5C000145EC6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D3709F091AD3A5C000145EC6;
+					};
+				};
+			};
+			buildConfigurationList = D3709F051AD3A5C000145EC6 /* Build configuration list for PBXProject "TYAttributedLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3709F011AD3A5C000145EC6;
+			productRefGroup = D3709F0B1AD3A5C000145EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3709F091AD3A5C000145EC6 /* TYAttributedLabelDemo */,
+				D3709F221AD3A5C000145EC6 /* TYAttributedLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3709F081AD3A5C000145EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3553BCF1AE7746A005D8F31 /* content.json in Resources */,
+				D3709F191AD3A5C000145EC6 /* Main.storyboard in Resources */,
+				B0165EF81AE157FA0003D580 /* CYLoLi.png in Resources */,
+				1812154D1B6B2CB3001572AA /* aa.png in Resources */,
+				D34A49991AD52D9E0036B7EF /* avatar.png in Resources */,
+				D34A49971AD52D980036B7EF /* haha.png in Resources */,
+				D3709F1E1AD3A5C000145EC6 /* LaunchScreen.xib in Resources */,
+				D3709F1B1AD3A5C000145EC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3709F211AD3A5C000145EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3709F061AD3A5C000145EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35F47DA1AE101880048B58A /* RegexKitLite.m in Sources */,
+				D3709F161AD3A5C000145EC6 /* ViewController.m in Sources */,
+				B03407411B27049300DCEACB /* TextContainerViewController.m in Sources */,
+				D3553BD51AE79106005D8F31 /* AddViewTextViewController.m in Sources */,
+				D35F47CE1AE0DB370048B58A /* AttributedTextViewController.m in Sources */,
+				D3C623FE1B20348400C15D94 /* TYTextContainer.m in Sources */,
+				D34A49951AD50EB70036B7EF /* TYImageStorage.m in Sources */,
+				D3709F131AD3A5C000145EC6 /* AppDelegate.m in Sources */,
+				B00F2C6C1B24666500EECDCE /* TYTextContainer+Extended.m in Sources */,
+				D34BE7421AD669F000BECD40 /* TYViewStorage.m in Sources */,
+				D3709F101AD3A5C000145EC6 /* main.m in Sources */,
+				D3709F431AD3C71900145EC6 /* NSMutableAttributedString+TY.m in Sources */,
+				D3553BD21AE778DB005D8F31 /* TYTextStorageParser.m in Sources */,
+				D35F47D11AE0DB500048B58A /* ImageTextViewController.m in Sources */,
+				D35F47D41AE0DBE30048B58A /* ParseTextViewController.m in Sources */,
+				D34A49871AD4D5510036B7EF /* TYTextStorage.m in Sources */,
+				D34A498E1AD4FA760036B7EF /* TYDrawStorage.m in Sources */,
+				D34A49911AD4FF370036B7EF /* TYLinkTextStorage.m in Sources */,
+				D3709F361AD3A60800145EC6 /* TYAttributedLabel.m in Sources */,
+				D35F47CB1AE0DAF20048B58A /* SimpleTextViewController.m in Sources */,
+				D3553BCC1AE732C8005D8F31 /* LinkTextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3709F1F1AD3A5C000145EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3709F2A1AD3A5C000145EC6 /* TYAttributedLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3709F251AD3A5C000145EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3709F091AD3A5C000145EC6 /* TYAttributedLabelDemo */;
+			targetProxy = D3709F241AD3A5C000145EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3709F171AD3A5C000145EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3709F181AD3A5C000145EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3709F1C1AD3A5C000145EC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3709F1D1AD3A5C000145EC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3709F2B1AD3A5C000145EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3709F2C1AD3A5C000145EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3709F2E1AD3A5C000145EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYAttributedLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3709F2F1AD3A5C000145EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYAttributedLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3709F311AD3A5C000145EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYAttributedLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYAttributedLabelDemo.app/TYAttributedLabelDemo";
+			};
+			name = Debug;
+		};
+		D3709F321AD3A5C000145EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYAttributedLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYAttributedLabelDemo.app/TYAttributedLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3709F051AD3A5C000145EC6 /* Build configuration list for PBXProject "TYAttributedLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3709F2B1AD3A5C000145EC6 /* Debug */,
+				D3709F2C1AD3A5C000145EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3709F2D1AD3A5C000145EC6 /* Build configuration list for PBXNativeTarget "TYAttributedLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3709F2E1AD3A5C000145EC6 /* Debug */,
+				D3709F2F1AD3A5C000145EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3709F301AD3A5C000145EC6 /* Build configuration list for PBXNativeTarget "TYAttributedLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3709F311AD3A5C000145EC6 /* Debug */,
+				D3709F321AD3A5C000145EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3709F021AD3A5C000145EC6 /* Project object */;
+}
