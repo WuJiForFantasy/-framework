@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5862408F-25F6-4B1A-BE85-E1DBBAB42D11</string>
+	<string>54420CEC-8261-4F26-9533-E642D9E69CE9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TYAttributedLabelDemo</string>
+	<string>testAA</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</key>
 		<string>https://github.com/WuJiForFantasy/-framework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>图文混排第三方/TYAttributedLabel-master 2/TYAttributedLabelDemo.xcodeproj</string>
+	<string>UITableView空数据时显示/testAA.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FDE3CE66FCCAD4FFABC67C3F4AAED35545C2BD15</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/WuJiForFantasy/-framework.git</string>

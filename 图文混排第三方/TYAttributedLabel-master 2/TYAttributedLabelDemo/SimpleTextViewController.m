@@ -21,7 +21,7 @@
     
     // addAttributedText
     TYAttributedLabel *label1 = [[TYAttributedLabel alloc]init];
-    label1.text = @"\t总有一天你将破蛹而出，成长得比人们期待的还要美丽。\n\t但这个过程会很痛，会很辛苦，有时候还会觉得灰心。\n\t面对着汹涌而来的现实，觉得自己渺小无力。\n\t但这，也是生命的一部分。做好现在你能做的，然后，一切都会好的。\n\t我们都将孤独地长大，不要害怕。";
+    label1.text = @" 1、“0押金”租房需要完善您的全部个人资料。\n 2、“0押金”服务，目的在于减轻您的资金压力，保证 方便快捷的租房体验。\n 3、该信息将会被录入中国人民银行征信系统，请务必 保证信息真实有效。\n 4、趣易租将保证用户信息的安全。\n5、在租房过程中，发生违约、未经趣易租同意的转租 等现象，将不再获得该项服务，以及后续更丰富的优惠 服务。\n 6、只有趣易租注册用户才能享有这一服务。\n 7、对于已经交过的押金，用户在通过本次申请后，趣 易租将在3到5个工作日内将押金返还到您的账户（原 支付账户。     \n 8、最终解释权归趣易租所有。\n";
     
     // 文字间隙
     label1.characterSpacing = 2;
@@ -29,7 +29,7 @@
     label1.linesSpacing = 6;
     
     label1.lineBreakMode = kCTLineBreakByTruncatingTail;
-    label1.numberOfLines = 4;
+    label1.numberOfLines = 0;
     // 文本字体
     label1.font = [UIFont systemFontOfSize:17];
     
