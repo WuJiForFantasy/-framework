@@ -17,6 +17,8 @@
 		189A366A1B68A7AD0018A936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A36691B68A7AD0018A936 /* Images.xcassets */; };
 		189A366D1B68A7AD0018A936 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189A366B1B68A7AD0018A936 /* LaunchScreen.xib */; };
 		189A36791B68A7AD0018A936 /* testAATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A36781B68A7AD0018A936 /* testAATests.m */; };
+		18B17B401BAFF53800F5149B /* ic_defuat_image_message1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B17B3F1BAFF53800F5149B /* ic_defuat_image_message1.png */; };
+		18B17B421BAFF5A200F5149B /* ic_defuat_image_message2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B17B411BAFF5A200F5149B /* ic_defuat_image_message2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		189A36721B68A7AD0018A936 /* testAATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A36771B68A7AD0018A936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189A36781B68A7AD0018A936 /* testAATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAATests.m; sourceTree = "<group>"; };
+		18B17B3F1BAFF53800F5149B /* ic_defuat_image_message1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_defuat_image_message1.png; path = ../ic_defuat_image_message1.png; sourceTree = "<group>"; };
+		18B17B411BAFF5A200F5149B /* ic_defuat_image_message2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_defuat_image_message2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				18621BDE1B68BA21007E1E2F /* UIScrollView+EmptyDataSet.h */,
 				18621BDF1B68BA21007E1E2F /* UIScrollView+EmptyDataSet.m */,
+				18B17B3F1BAFF53800F5149B /* ic_defuat_image_message1.png */,
+				18B17B411BAFF5A200F5149B /* ic_defuat_image_message2.png */,
 				18621BE01B68BA21007E1E2F /* wj_empty_default.png */,
 				18621BE11B68BA21007E1E2F /* WJBaseTableView.h */,
 				18621BE21B68BA21007E1E2F /* WJBaseTableView.m */,
@@ -221,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				189A36681B68A7AD0018A936 /* Main.storyboard in Resources */,
+				18B17B421BAFF5A200F5149B /* ic_defuat_image_message2.png in Resources */,
+				18B17B401BAFF53800F5149B /* ic_defuat_image_message1.png in Resources */,
 				189A366D1B68A7AD0018A936 /* LaunchScreen.xib in Resources */,
 				18621BE41B68BA21007E1E2F /* wj_empty_default.png in Resources */,
 				189A366A1B68A7AD0018A936 /* Images.xcassets in Resources */,

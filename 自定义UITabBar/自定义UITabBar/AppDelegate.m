@@ -18,11 +18,44 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
+    [self setupNavigationBarStyle];
     WJTabBarControl *tabBar = [[WJTabBarControl alloc]init];
-    
+    [tabBar addControlOfControlNameArray:@[@"ViewController",
+                                           @"ViewController",
+                                           @"ViewController",
+                                           @"ViewController"]
+                                itemName:@[@"haha",@"更多",@"xiaoxiao",@"lala"]
+                    itemImageStringArray:@[@"tabbar_product",
+                                           @"tabbar_more",
+                                           @"tabbar_client",
+                                           @"tabbar_info"]
+              itemImageSelectStringArray:@[@"tabbar_product_selected",
+                                           @"tabbar_more_selected",
+                                           @"tabbar_client_selected",
+                                           @"tabbar_info_selected"]];
+    [tabBar selectControlAtIndex:2];
     _window.rootViewController = tabBar;
     [_window makeKeyAndVisible];
     return YES;
+}
+
+- (void)setupNavigationBarStyle {
+    
+    UINavigationBar *appearance = [UINavigationBar appearance];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        
+        // 设置导航条背景颜色，在iOS7才这么用
+        [appearance setBarTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
+        // 设置导航条的返回按钮或者系统按钮的文字颜色，在iOS7才这么用
+        [appearance setTintColor:[UIColor whiteColor]];
+        // 设置导航条的title文字颜色，在iOS7才这么用
+        [appearance setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                            [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:17], NSFontAttributeName, nil]];
+        
+    } else {
+        // 设置导航条的背景颜色，在iOS7以下才这么用
+        [appearance setTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

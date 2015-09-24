@@ -64,7 +64,7 @@
 #pragma mark - DZNEmptyDataSetDelegate,DZNEmptyDataSetSource
 
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView {
-    return [UIImage imageNamed:@"wj_empty_default"];
+    return [UIImage imageNamed:@"ic_defuat_image_message2"];
 }
 
 - (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView {
@@ -80,5 +80,10 @@
 - (CGFloat)spaceHeightForEmptyDataSet:(UIScrollView *)scrollView {
     return 10;
 }
+
+- (CGPoint)offsetForEmptyDataSet:(UIScrollView *)scrollView {
+    return CGPointMake(0, 0);
+}
+
 
 @end
