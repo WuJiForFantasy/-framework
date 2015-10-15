@@ -36,18 +36,24 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     //http://192.168.0.136:8080/moai2.0/vip/buyvip.do
-    NSString *urlPath = @"http://www.weather.com.cn/data/sk/101010100.html";
-    NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
-//    [params setObject:@"1" forKey:@"uid"];
-//    [params setObject:@"4" forKey:@"payType"];
-//    [params setObject:@"2" forKey:@"vid"];
-//    [WJNetworking netWorkingIsGetWithURL:urlPath param:params success:^(NSDictionary *dataDic) {
-//        NSLog(@"%@",dataDic);
-//    } fail:^(NSError *failObj) {
-//        
-//    }];
     
-    [WJNetworking netWorkingIsGetWithURL:urlPath param:params success:^(NSDictionary *dataDic) {
+    //https://api.sms.mob.com/sms/verify
+    
+    //@"http://www.weather.com.cn/data/sk/101010100.html"
+    
+    
+    //http://wiki.mob.com/smssdk-web-1-3-0verify/
+    
+    //http://wiki.mob.com/smssdk-service-verify/
+    
+    NSString *urlPath = @"https://web.sms.mob.com/sms/verify";
+    NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
+    [params setObject:@"721af810eab5" forKey:@"appkey"];
+    [params setObject:@"18398521006" forKey:@"phone"];
+    [params setObject:@"86" forKey:@"zone"];
+    [params setObject:@"4866" forKey:@"code"];
+    
+    [WJNetworking netWorkingIsPostWithURL:urlPath param:params success:^(NSDictionary *dataDic) {
         NSLog(@"%@",dataDic);
     } fail:^(NSError *failObj) {
         
