@@ -29,5 +29,9 @@ typedef void (^FailBlock)(NSError *failObj);
  */
 + (void)downloadFileURL:(NSString *)aUrl savePath:(NSString *)aSavePath fileName:(NSString *)aFileName tag:(NSInteger)aTag;
 
+/** 上传图片(jpeg, png各种类型),及视频 */
++ (void)uploadFileURL:(NSString *)url parame:(NSDictionary *)parames uploadPath:(NSString *)path;
+
+
 
 @end

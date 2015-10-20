@@ -138,8 +138,8 @@ static BOOL canCHeckNetwork = NO;
     
     //检查附件是否存在
     if ([fileManager fileExistsAtPath:fileName]) {
-        NSData *audioData = [NSData dataWithContentsOfFile:fileName];
-        //如果存在找到存在的地址audiodata
+//        NSData *audioData=[NSData dataWithContentsOfFile:fileName];
+//        如果存在找到存在的地址audiodata
         NSLog(@"本地已经存在");
     }else{
         //创建附件存储目录
@@ -173,8 +173,26 @@ static BOOL canCHeckNetwork = NO;
     }
 }
 
-
-
-
++ (void)uploadFileURL:(NSString *)url parame:(NSDictionary *)parames uploadPath:(NSString *)path {
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    AFHTTPRequestOperation *operation = [manager POST:url
+                                           parameters:parames
+                            constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+                                NSData *imageData = nil;
+                                NSData *videoData = nil;
+                                //图片
+                                [formData appendPartWithFileData:imageData name:@"name" fileName:@"filename.jpg" mimeType:@"image/jpeg"];
+                                //视频
+                                [formData appendPartWithFileData:videoData name:@"video1" fileName:@"video1.mov" mimeType:@"video/quicktime"];
+                                NSLog(@"这里写文件的类型");
+                            } success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                NSLog(@"成功");
+                            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                NSLog(@"失败");
+                            }];
+    [operation setUploadProgressBlock:^(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite) {
+        NSLog(@"%f",totalBytesWritten*1.0/totalBytesExpectedToWrite);
+    }];
+}
 
 @end
