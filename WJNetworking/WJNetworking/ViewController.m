@@ -46,18 +46,24 @@
     
     //http://wiki.mob.com/smssdk-service-verify/
     
-    NSString *urlPath = @"https://web.sms.mob.com/sms/verify";
-    NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
-    [params setObject:@"721af810eab5" forKey:@"appkey"];
-    [params setObject:@"18398521006" forKey:@"phone"];
-    [params setObject:@"86" forKey:@"zone"];
-    [params setObject:@"4866" forKey:@"code"];
+//    NSString *urlPath = @"https://web.sms.mob.com/sms/verify";
+//    NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
+//    [params setObject:@"721af810eab5" forKey:@"appkey"];
+//    [params setObject:@"18398521006" forKey:@"phone"];
+//    [params setObject:@"86" forKey:@"zone"];
+//    [params setObject:@"4866" forKey:@"code"];
+//    
+//    [WJNetworking netWorkingIsPostWithURL:urlPath param:params success:^(NSDictionary *dataDic) {
+//        NSLog(@"%@",dataDic);
+//    } fail:^(NSError *failObj) {
+//        
+//    }];
     
-    [WJNetworking netWorkingIsPostWithURL:urlPath param:params success:^(NSDictionary *dataDic) {
-        NSLog(@"%@",dataDic);
-    } fail:^(NSError *failObj) {
-        
-    }];
+    NSString *downPathUrl = @"http://krtv.qiniudn.com/150522nextapp";
+    NSString *str = NSHomeDirectory();
+    NSLog(@"%@",str);
+    NSString *savePathUrl = [NSString stringWithFormat:@"%@/Documents",str];
+    [WJNetworking downloadFileURL:downPathUrl savePath:savePathUrl fileName:@"gaga.mp4" tag:10];
 }
 
 - (void)didReceiveMemoryWarning {

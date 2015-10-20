@@ -126,4 +126,55 @@ static BOOL canCHeckNetwork = NO;
     }
 }
 
+/**
+ * 下载文件,这是用的
+ */
++ (void)downloadFileURL:(NSString *)aUrl savePath:(NSString *)aSavePath fileName:(NSString *)aFileName tag:(NSInteger)aTag
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    //检查本地文件是否已存在
+    NSString *fileName = [NSString stringWithFormat:@"%@/%@", aSavePath, aFileName];
+    
+    //检查附件是否存在
+    if ([fileManager fileExistsAtPath:fileName]) {
+        NSData *audioData = [NSData dataWithContentsOfFile:fileName];
+        //如果存在找到存在的地址audiodata
+        NSLog(@"本地已经存在");
+    }else{
+        //创建附件存储目录
+        if (![fileManager fileExistsAtPath:aSavePath]) {
+            [fileManager createDirectoryAtPath:aSavePath withIntermediateDirectories:YES attributes:nil error:nil];
+        }
+        
+        //下载附件
+        NSURL *url = [[NSURL alloc] initWithString:aUrl];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        
+        AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+        operation.inputStream   = [NSInputStream inputStreamWithURL:url];
+        operation.outputStream  = [NSOutputStream outputStreamToFileAtPath:fileName append:NO];
+        
+        //下载进度控制
+        
+         [operation setDownloadProgressBlock:^(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead) {
+         NSLog(@"is download：%f", (float)totalBytesRead/totalBytesExpectedToRead);
+         }];
+        
+        //已经完成下载
+        [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation * operation, id responseObject) {
+//            NSData *audioData = [NSData dataWithContentsOfFile:fileName];
+            //下载的数据
+            NSLog(@"下载成功");
+        } failure:^(AFHTTPRequestOperation * operation, NSError * error) {
+            NSLog(@"下载失败");
+        }];
+        [operation start];
+    }
+}
+
+
+
+
+
 @end

@@ -19,4 +19,15 @@ typedef void (^FailBlock)(NSError *failObj);
 + (void)netWorkingIsGetWithURL:(NSString *)urlpath param:(NSDictionary *)dic success:(SuccessBlock)succsess fail:(FailBlock)fail;
 /**普通post网络请求*/
 + (void)netWorkingIsPostWithURL:(NSString *)urlpath param:(NSDictionary *)dict success:(SuccessBlock)succsess fail:(FailBlock)fail;
+/**
+ * 下载文件
+ *
+ * @param string aUrl 请求文件地址
+ * @param string aSavePath 保存地址
+ * @param string aFileName 文件名
+ * @param int aTag tag标识
+ */
++ (void)downloadFileURL:(NSString *)aUrl savePath:(NSString *)aSavePath fileName:(NSString *)aFileName tag:(NSInteger)aTag;
+
+
 @end
